@@ -4,7 +4,7 @@ public class Rook extends ChessPiece {
     private String pozicija;
     private Color boja;
 
-    public Rook(String pozicija, Color boja) {
+    public Rook(String pozicija, Color boja){
         super(pozicija, boja);
         this.pozicija = pozicija;
         this.boja = boja;

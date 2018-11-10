@@ -4,7 +4,7 @@ public class Queen extends ChessPiece {
     private String pozicija;
     private Color boja;
 
-    public Queen(String pozicija, Color boja) {
+    public Queen(String pozicija, Color boja){
         super(pozicija, boja);
         this.pozicija = pozicija;
         this.boja = boja;
