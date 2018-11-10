@@ -4,6 +4,7 @@ public class King extends ChessPiece {
     private String pozicija;
     private Color boja;
 
+    @Override
     public String getPosition() {
         return pozicija;
     }
@@ -12,6 +13,7 @@ public class King extends ChessPiece {
         this.pozicija = pozicija;
     }
 
+    @Override
     public Color getColor() {
         return boja;
     }
