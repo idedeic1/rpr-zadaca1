@@ -6,7 +6,7 @@ abstract public class ChessPiece {
     private Color boja;
 
     public ChessPiece(String pozicija, Color boja) {
-        if(pozicija.charAt(0) < 'A' || pozicija.charAt(0) > 'H' || pozicija.charAt(1) < '1' || pozicija.charAt(1) > '8') throw new IllegalChessMoveException("Tekst");
+        if(pozicija.charAt(0) < 'A' || pozicija.charAt(0) > 'H' || pozicija.charAt(1) < '1' || pozicija.charAt(1) > '8') throw new IllegalChessMoveException();
         this.pozicija = pozicija;
         this.boja = boja;
     }
@@ -20,7 +20,7 @@ abstract public class ChessPiece {
             this.pozicija = tmp;
         }
         else{
-            throw new IllegalChessMoveException("tekst");
+            //throw new IllegalChessMoveException("tekst");
         }
     }
 

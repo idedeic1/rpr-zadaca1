@@ -22,10 +22,10 @@ public class King extends ChessPiece {
         this.boja = boja;
     }
 
-    public King(String pozicija, Color boja, String pozicija1, Color boja1) {
+    public King(String pozicija, Color boja) {
         super(pozicija, boja);
-        this.pozicija = pozicija1;
-        this.boja = boja1;
+        this.pozicija = pozicija;
+        this.boja = boja;
     }
 
 
