@@ -12,8 +12,8 @@ abstract public class ChessPiece {
     }
 
     public enum Color{BLACK, WHITE};
-    public String getPosition(){}
-    public Color getColor(){}
+    public String getPosition(){ return pozicija;}
+    public Color getColor(){return boja;}
     public void move(String position){}
 
 }
